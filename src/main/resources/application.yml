@@ -1,0 +1,7 @@
+openai:
+  url: https://api.openai.com/v1
+#    file: https://api.openai.com/v1/files
+#    batch: https://api.openai.com/v1/batches
+#    batch-retrieve: https://api.openai.com/v1/batches/{batchId}
+#    batch-file download : https://api.openai.com/v1/files/{batchId}/content
+  api-key:
