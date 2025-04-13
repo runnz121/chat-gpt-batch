@@ -86,14 +86,13 @@ public class OpenApiApplicationService {
                 results.add(record);
             }
         } catch (IOException e) {
-            e.printStackTrace();
+
         }
 
         results.forEach(
                 result -> {
                     BatchRetrieveResult.Choice choices = result.response().body().choices().get(0);
                     String content = choices.message().content();
-                    System.out.println(content);
                 }
         );
     }
